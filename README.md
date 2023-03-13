@@ -6,8 +6,6 @@ Everything starts with an issue. You need to close every issue oppened at this r
 
 ## How to submit the solutions
 
-### Submiting a solution
-
 1. Check the unsolved issues.
 1. Select the next issue you want to solve.
 1. Write your solution in your own repository (you should fork this repository), under the ``./solutions/Your name`` folder.
