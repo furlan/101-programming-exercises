@@ -17,3 +17,5 @@ if s != 0 and s != 00:
         print('pay 1-18')
     else:
         print('pay 19-36')
+else:
+    print('pay, ', s)
