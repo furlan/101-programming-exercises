@@ -1,11 +1,12 @@
 from random import randint
+red = [1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36]
 s = randint(0,37)
 if s == 37:
     s = 00
 print('the spin resulted in', s, '...')
 print('pay', s)
 if s != 0 and s != 00:
-    if s == 1 or s == 3 or s == 5 or s == 7 or s == 9 or s == 12 or s == 14 or s == 16 or s == 18 or s == 19 or s == 21 or s == 23 or s == 25 or s == 27 or s == 30 or s == 32 or s == 34 or s == 36:
+    if s in red:
         print('pay red')
     else:
         print('pay black')
@@ -18,4 +19,4 @@ if s != 0 and s != 00:
     else:
         print('pay 19-36')
 else:
-    print('pay, ', s)
+    print('pay,', s)

@@ -1,5 +1,5 @@
 a = input('Uppercase and lowercase matters. Put your word here: ')
-b = a[::-1]
+b = ''.join(reversed(a))
 if a == b:
     print(a, 'Is a palindrome')
 else:
